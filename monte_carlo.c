@@ -23,9 +23,9 @@ float mc_pi(int n1)
      y=rand();
      s=(x*x)+(y*y);
      d=sqrt(s);
-     if(d<=2)
+     if(d<=20000)
      {d1++;
-        if(d<=1)
+        if(d<=10000)
          d2++;
      }
     }
