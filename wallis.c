@@ -9,7 +9,7 @@ int main(void)
 {int n;
  float pi;
  printf("enter the number of iterations:");
- scanf("%d",n);
+ scanf("%d",&n);
  pi=wallis_pi(n);
  printf("the approximate value of pi is:%f",pi);
  return 0;
