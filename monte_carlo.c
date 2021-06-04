@@ -6,7 +6,7 @@ int main()
 {
     int n;
     float pi;
- printf("enter the number of iterations:");
+ printf("enter the number of iterations: ");
  scanf("%d",&n);
  pi=mc_pi(n);
  printf("approx value of pi is:%f",pi);
