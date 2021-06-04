@@ -8,7 +8,7 @@ int main()
     float pi;
  scanf("%d",&n);
  pi=mc_pi(n);
- printf("%f",pi);
+ printf("/n%f",pi);
 }
 
 float mc_pi(int n1)
